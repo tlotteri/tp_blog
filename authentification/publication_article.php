@@ -8,7 +8,7 @@ try {
 session_start();
 if (isset($_POST) && isset($_POST['titre']))
 {
-
+    
 $query = $dbh->prepare('INSERT INTO `articles`(`title`, `content`, `published_at`, `user_id`) VALUES (?,?,?,?);');
 $query->execute([$_POST['titre'],$_POST['content'],date('Y-m-d H:i:s'), $_SESSION['user-id']]);
 
