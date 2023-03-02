@@ -1,0 +1,134 @@
+
+/* body {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  
+#header { 
+  display: flex;
+}
+
+  a {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+a {
+  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.top_nav {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 37px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+
+.top_nav a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.top_nav a {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  margin: inherit;
+}
+
+.main_articles { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 { 
+  display: flex;
+  justify-content: center;
+} */
+
+/* CSS pour la page d'accueil */
+
+
+/* Police de caractères */
+body {
+  margin: 0;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+a {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* En-tête */
+#header {
+  background-color: rgba(181, 181, 181, 1);
+  color: white;
+  padding: 20px;
+}
+
+/* Barre de navigation */
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Liens dans la barre de navigation */
+.top_nav a {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.top_nav a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Titre de la page */
+h1 {
+  font-size: 32px;
+  color: #333333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+
