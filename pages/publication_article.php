@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/publication_article.css">
     <link rel="stylesheet" href="reset.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');</style>
     <title>Publication de l'article</title>
 </head>
 <body>
